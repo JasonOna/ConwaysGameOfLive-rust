@@ -1,5 +1,5 @@
 [package]
-name = "grrs"
+name = "game_of_life"
 version = "0.1.0"
 authors = ["Jason Ona <jason.ona@cogent.co>"]
 edition = "2018"

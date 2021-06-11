@@ -9,7 +9,7 @@ fn main() {
         + "0,0,0,0,0,0,0,0,0,0\n"
         + "0,0,0,0,0,0,1,1,1,0\n"
         + "0,0,0,0,0,0,0,0,0,0\n";
-    let mut a = grrs::Board::create(&init);
+    let mut a = game_of_life::Board::create(&init);
 
     loop {
         a.print();
